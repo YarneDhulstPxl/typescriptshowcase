@@ -1,0 +1,32 @@
+:host {
+	padding: 1rem;
+	margin: 0.5rem;
+	border-radius: 3px;
+	/*border: 1px solid #ccc;*/
+	display: inline-block;
+	width: 25%;
+}
+
+div {
+	border: 1px solid #ccc;
+}
+
+.grass {
+	background-color: lightgreen;
+}
+
+.water {
+	background-color: lightskyblue;
+}
+
+.fire {
+	background-color: lightcoral;
+}
+
+.selected {
+	border: 3px solid gold;
+}
+
+img {
+	max-height: 150px;
+}

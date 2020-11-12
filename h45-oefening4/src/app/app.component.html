@@ -1,0 +1,3 @@
+<h1>Pokédex</h1>
+<p [hidden]="!selectedPokemonName">Geselecteerde pokemon: {{ selectedPokemonName }}</p>
+<app-pokemon *ngFor="let pokemon of pokemons;" [pokemon]="pokemon" (selectedPokemon)="handleData($event)"></app-pokemon>

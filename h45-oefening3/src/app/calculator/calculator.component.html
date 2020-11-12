@@ -1,0 +1,5 @@
+<h1>Angular Calculator</h1>
+<input type="number" [(ngModel)]="firstNumber"><br>
+<input type="number" [(ngModel)]="secondNumber"><br>
+<button type="button" (click)="onClick()">Optellen</button>
+<div [hidden]="isHidden">{{ result }}</div>
